@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte sua Refeição</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Monte sua Refeição</h1>
+    </header>
+    <main>
+        <section id="sec-form">
+            <form id="form">
+                <label for="prato">Selecione o prato:</label>
+                <select id="prato">
+                    <option value="">Escolha</option>
+                    <option value="carne">Carne de Sol com Mandioca</option>
+                    <option value="kitkat">Kit Kat</option>
+                    <option value="lasanha">Lasanha de Frango</option>
+                </select>
+                <label for="bebida">Selecione a bebida:</label>
+                <select id="bebida">
+                    <option value="">Escolha</option>
+                    <option value="suco">Suco de Goiaba</option>
+                    <option value="refrigerante">Coca Cola</option>
+                    <option value="agua">Água</option>
+                </select>
+                <p>Adicionais:</p>
+                <label><input type="checkbox" class="adicional" value="sobremesa">Açai</label>
+                <label><input type="checkbox" class="adicional" value="molho">Molho Extra</label>
+                <label><input type="checkbox" class="adicional" value="embalagem">Embalagem Premium</label>
+                <button type="button" id="btn-calcular">Calcular Total</button>
+                <div id="erro"></div>
+            </form>
+        </section>
+        <section id="resultado" class="hidden">
+            <h2>Resumo do Pedido</h2>
+            <p><strong>Prato:</strong> <span id="res-prato"></span></p>
+            <p><strong>Bebida:</strong> <span id="res-bebida"></span></p>
+            <p><strong>Adicionais:</strong> <span id="res-adicionais"></span></p>
+            <p><strong>Total:</strong> R$ <span id="res-total"></span></p>
+            <button id="btn-resetar">Novo Pedido</button>
+        </section>
+    </main>
+    <footer>
+        <p>Gustavo — 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
