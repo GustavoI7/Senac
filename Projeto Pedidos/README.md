@@ -46,6 +46,6 @@ https://github.com/GustavoI7/Senac.git
 - Organização de pastas com HTML, CSS e JS
 
 ## 👨🏽‍💻 Autor 
-Gustavo Italo Maciel dos Santos
-Turma de Tecnologia em Informática para internet (Vespertino) - Senac DF
+- Gustavo Italo Maciel dos Santos
+- Turma de Tecnologia em Informática para internet (Vespertino) - Senac DF
 
