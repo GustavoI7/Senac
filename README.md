@@ -25,7 +25,7 @@ Esta pasta foi criada para:
 
 ✔️ Publicar meus projetos no GitHub
 
-🔧 Tecnologias que mais utilizei
+🔧 Tecnologias que estou utilizando
 
 - HTML5
 - CSS3
