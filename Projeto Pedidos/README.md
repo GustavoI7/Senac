@@ -29,6 +29,7 @@ Botão para reiniciar e fazer um novo pedido
 
 No terminal do VS code digite: 
     git clone https://github.com/GustavoI7/Senac.git
+    
 No GitHub Desktop:
     No menu: File(Arquivo)>Clone a repositor(Clonar repositório)>Selecione a aba URL, no campo URL, cole o link do repositório
 https://github.com/GustavoI7/Senac.git
