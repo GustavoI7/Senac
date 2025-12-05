@@ -45,7 +45,9 @@ button:hover {
     display: none;
 }
 footer {
-    margin-top: 350px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background: #000000;
     padding: 15px;
     color: #ffffff;
