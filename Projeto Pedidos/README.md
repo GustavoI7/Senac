@@ -2,6 +2,7 @@
 
 Este projeto permite que o usuário monte sua própria refeição escolhendo um prato, uma bebida e opcionais adicionais. Ao final, o sistema calcula automaticamente o valor total e exibe um resumo completo do pedido.
 
+
  ## ⚙️ Funcionalidades 
 
 Seleção de prato principal
